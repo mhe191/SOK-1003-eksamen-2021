@@ -2,20 +2,20 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "abcb954b-2264-41f4-a16e-dea90c4ad0b6",
+   "id": "044ba5d9-d8aa-4848-ba24-79c57a008ab9",
    "metadata": {},
    "source": [
-    "# Prosjektoppgave\n",
-    " \n",
     "#### av André Langvik, Martin Smedstad, Mathias Hetland\n",
-    "\n",
     "### 03-12-2021\n",
-    " --- "
+    " --- \n",
+    "\n",
+    "    \n",
+    "    \n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "9da8ffea-03e9-40a5-b26a-686107a6d81d",
+   "id": "ccf8b94c-842f-4ae1-b707-e50e3d5db359",
    "metadata": {},
    "source": [
     "### Innholdsfortegnelse:\n",
@@ -40,7 +40,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ec4c2bd2-0972-4f3d-8eac-9e0c26b94c2c",
+   "id": "90398420-3f2f-4b95-a7f5-83028d6b5629",
    "metadata": {},
    "source": [
     "## Innledning <a class=\"anchor\" id=\"innledning\"></a>\n",
@@ -52,7 +52,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6decbfe2-8876-4afd-96a1-828398b96827",
+   "id": "7c7d310a-469d-428d-9762-28fb508c8105",
    "metadata": {},
    "source": [
     "## Oppgave 1: <a class=\"anchor\" id=\"oppgave1\"></a>\n",
@@ -64,7 +64,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c6e8bdb6-501c-46d1-8406-03b9a32eaae1",
+   "id": "2fd77724-e7cf-4c1b-a79b-c25ec3108d3e",
    "metadata": {},
    "source": [
     "### Innledning oppgave 1: <a class=\"anchor\" id=\"innledningoppgave1\"></a>\n",
@@ -83,12 +83,13 @@
     "\n",
     "\n",
     "*Grunnen for at dette er en dagsaktuell oppgave er fordi det er stor etterspørsel i dagens norske marked, men samtidig er det redusert tilbud på grunn av begrensninger som følge av pandemien. Det har blitt skapt en stor betalingsvillighet i den norske økonomien, fordi husholdningene/etterspørene har ikke hatt mulighet i like stor grad til å konsumere varer og tjenester sånn som i 2020.* [5](https://www.ssb.no/priser-og-prisindekser/konsumpriser/statistikk/sammenlikning-av-prisniva-i-europa/artikler/fortsatt-hoye-priser-og-hoyt-konsum-i-norden?fbclid=IwAR2cYh2dGYARMrCcYsvCPUMDT2sdNC0NoQImA-lUyV0A657IQMM5NeKPOHg)\n",
+    "\n",
     "\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6ebb9172-3fdc-469d-9fb6-da933c704f24",
+   "id": "b53b63cf-f06b-4103-b759-303bd31b68f7",
    "metadata": {},
    "source": [
     "*Litteraturen som er brukt til oppgaven er hentet fra pensum i Mikroøkonomi av Viggo & co, lenkene i oppgaveteksten er referanser til påstander vi har i innledningen. Selve oppgaven er blitt inspirert av en tilsvarende oppgave gjort av Koehler.* \n",
@@ -103,17 +104,9 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "1fc0a50f-61d1-40d6-9380-81fae1f90883",
-   "metadata": {},
-   "source": [
-    "> Utregning av etterspørlsfunksjonen og tilbudsfunksjonen:"
-   ]
-  },
-  {
    "cell_type": "code",
-   "execution_count": 18,
-   "id": "388df0be-e793-4cb0-912e-0826d7ca48d0",
+   "execution_count": 2,
+   "id": "8ff7b404-3627-44ee-99df-b3ab93bea8b4",
    "metadata": {},
    "outputs": [
     {
@@ -125,7 +118,7 @@
        "a - b*p"
       ]
      },
-     "execution_count": 18,
+     "execution_count": 2,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -139,13 +132,13 @@
     "    return a - b * p\n",
     "\n",
     "a, b, p =sp.symbols(\"a b p\")\n",
-    "demand(a, b, p)   "
+    "demand(a, b, p)  "
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
-   "id": "91dc074e-647a-4f61-9c2f-a90fe5167465",
+   "execution_count": 3,
+   "id": "4b55a550-746a-4e3d-aeb8-6388f1c103db",
    "metadata": {},
    "outputs": [
     {
@@ -177,8 +170,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
-   "id": "30ec96b9-14cb-471e-a682-257f6b604c00",
+   "execution_count": 4,
+   "id": "5d9fbdc4-eaa9-4064-a928-e06d1a630279",
    "metadata": {},
    "outputs": [
     {
@@ -211,7 +204,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8f38a072-7b34-43e7-994d-e540a31b616a",
+   "id": "addc7ebe-2c7f-4753-b412-fb2cec5f4df8",
    "metadata": {},
    "source": [
     "---\n",
@@ -222,8 +215,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 21,
-   "id": "91124556-eb26-4e23-9ee2-9ec9ba87c4d2",
+   "execution_count": 5,
+   "id": "4fada8e8-6c59-4b42-8807-41f255af75ae",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -259,8 +252,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 22,
-   "id": "5fcfe23f-b9b5-44fb-89b0-77b770da0506",
+   "execution_count": 6,
+   "id": "030b477c-7b7e-40dd-a660-55909a1dd0dc",
    "metadata": {},
    "outputs": [
     {
@@ -304,15 +297,15 @@
   },
   {
    "cell_type": "markdown",
-   "id": "85dc2013-3fcc-4306-96a3-9c7df53e8d9c",
+   "id": "1eb2f1c0-d89a-4466-a6af-1963b4641003",
    "metadata": {},
    "source": [
-    "**En enkel tilbuds-etterspørsels modell i likevekt**\n"
+    "**En enkel tilbuds-etterspørsels modell i likevekt**"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "b896d434-a3e8-4a7e-ba6b-8b6a91a4daaf",
+   "id": "db6f0b32-c271-4159-abfe-d3d492e9c6c2",
    "metadata": {},
    "source": [
     "> Utregningen av likevektspris-, og kvantum, KO, PO, SO gjøres slik:"
@@ -320,8 +313,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 23,
-   "id": "5dcba1e3-2736-45b6-b582-bba07619b001",
+   "execution_count": 7,
+   "id": "eaaa3500-2bd7-4bce-a295-6a831014ac33",
    "metadata": {},
    "outputs": [
     {
@@ -349,17 +342,9 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "2a643e2b-c8b9-40d3-8ae8-ea6738ac5c69",
-   "metadata": {},
-   "source": [
-    "> Har en enkel tilbuds-etterspørsels modellen og legger til verdiene ovenfor inn i modellen:"
-   ]
-  },
-  {
    "cell_type": "code",
-   "execution_count": 24,
-   "id": "800804da-0a7c-44f4-ba84-337963e9865a",
+   "execution_count": 8,
+   "id": "dfea670f-e821-477c-88b2-294f21c4ca8b",
    "metadata": {},
    "outputs": [
     {
@@ -368,7 +353,7 @@
        "Text(5.1, 0, '$Q^{*}$')"
       ]
      },
-     "execution_count": 24,
+     "execution_count": 8,
      "metadata": {},
      "output_type": "execute_result"
     },
@@ -405,7 +390,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6e42ab04-e032-42c6-8818-5485eec249a6",
+   "id": "3393b13b-856b-46a4-bfce-6c9a3eca11eb",
    "metadata": {},
    "source": [
     "*En modell i likevekt der tilbud = etterspørsel vil optimal pris (P*) være 5 og kvantum (Q*) *være 5. Produsentoverskuddet og kosnumentoverskuddet vil være like store og det samfunnsøkonomiske overskuddet vil være optimalt.*\n",
@@ -423,16 +408,17 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9c4c216a-2efb-4adf-8fcd-0b6a00844c65",
+   "id": "2eab75e0-87aa-47e8-bf97-abc2f44bc532",
    "metadata": {},
    "source": [
     "---\n",
-    "### Skift i modellen: <a class=\"anchor\" id=\"skiftimodell\"></a>\n"
+    "### Skift i modellen: <a class=\"anchor\" id=\"skiftimodell\"></a>\n",
+    "\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6777d3cc-042b-474c-b83a-b0e3a32a61a3",
+   "id": "d006523a-e2c9-4ca5-9732-c0ed1a5fef95",
    "metadata": {},
    "source": [
     "**En bedrift setter opp prisen på produktet sitt, og vil ikke selge et produkt for mindre enn 5. Det gjør at etterspørselen etter produktet går ned, og det blir et skift i likevekten mellom pris og etterspørsel til venstre i modellen**"
@@ -440,8 +426,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 25,
-   "id": "7d107373-ae08-46bc-b6d7-edcd2ec5bd0c",
+   "execution_count": 9,
+   "id": "b227d805-30fb-45d4-96b2-74af35bc1662",
    "metadata": {},
    "outputs": [
     {
@@ -490,7 +476,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "059fbf13-a5e2-4d85-b671-22cfa89efcad",
+   "id": "b95c24c7-da7f-48b8-a081-9c2c1ea05a7a",
    "metadata": {},
    "source": [
     "> Her ser man at Likevektspris-, og kvantum tilpasser seg den nye likevekten, KO og PO blir mindre, prisen øker og kvantum går ned, noe som resulterer i et SO-tap, siden SO ikke er optimal."
@@ -498,7 +484,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "aa338a35-6f1e-45b3-a6f2-c3fde19dc82f",
+   "id": "c99e729b-f91f-4150-baac-1810bfd2484e",
    "metadata": {},
    "source": [
     "---\n",
@@ -518,12 +504,13 @@
     "\n",
     "*Styringsrenten og forutsetningene om den fremdtidige utviklingen i styringsrenten påvirker i første rekke rentene som er mellom banker og hvilket rentenivå bankene tilbyr på utlån og innskudd til privatpersoner/kunder. markedsrentene påvirker i andre rekke kronekrusen, prisene på verdipapierer, boligpriser og etterspørselen etter lån, forbruk og investeringer. Den kan også påvirke forventingene til fremtidig inflasjon og økonomisk utvikling, endringer i styringsrentene virker med adnre ord på styrende på mange viktigte størrelser i økonomine, som gir det navnet styringsrente* \n",
     "\n",
-    "----\n"
+    "----\n",
+    "\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "6e1d43e9-2ab3-4fed-8f96-2cea8582673c",
+   "id": "19fa2d5c-49da-4925-9379-96775b4fc596",
    "metadata": {},
    "source": [
     "> Bruker pandas til å hente ut data fra SSB."
@@ -531,8 +518,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 26,
-   "id": "db22c67c-0fef-4548-ac7c-e56b9a318501",
+   "execution_count": 16,
+   "id": "f353f5b1-43ea-4a80-85de-c403ce0ccfe4",
    "metadata": {},
    "outputs": [
     {
@@ -567,7 +554,7 @@
        "[1428 rows x 3 columns]>"
       ]
      },
-     "execution_count": 26,
+     "execution_count": 16,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -581,7 +568,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5b0783fd-5e0c-473f-a4c2-5ae08ac62aef",
+   "id": "c6fdc3d9-aab8-4f95-ad63-014606b301ca",
    "metadata": {},
    "source": [
     "> **Henter ut de variablene vi vil jobbe videre med:**"
@@ -589,8 +576,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 27,
-   "id": "1163eeaf-1d40-4694-8e16-2f5230f018be",
+   "execution_count": 21,
+   "id": "b6ae44e6-ecc5-4cd7-a401-a7f9aeb0ceb8",
    "metadata": {},
    "outputs": [
     {
@@ -1913,7 +1900,7 @@
        "[34 rows x 42 columns]"
       ]
      },
-     "execution_count": 27,
+     "execution_count": 21,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1927,8 +1914,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 28,
-   "id": "76140de2-ea18-4e1d-be64-ccb6dcf9ef10",
+   "execution_count": 22,
+   "id": "ffa005da-1efd-4abc-9d39-152aebf47cf0",
    "metadata": {},
    "outputs": [
     {
@@ -2173,7 +2160,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "48b7009b-10a4-4c38-9099-e26ee7986306",
+   "id": "4f27ec9c-3907-44e1-8b67-d6dcf163d7cf",
    "metadata": {},
    "source": [
     "---\n",
@@ -2205,15 +2192,12 @@
     "\n",
     "*IS-RR-PK-kruven i en åpen økonom som i denne oppgaven har flytende valutakurs, og inflasjonsmål. Sentralbanken vil holde infalsjon nær inflasjonsmålet, og stabilisere BNP nær sitt potensielle nivå. Handlingsmønsteret til sentral banken vil være å bruke renteregelen for å justere mot inflasjonsmålet = 2%*\n",
     "(inflasjonmålet var fra 2001 frem til 2018 på 2,5%, før det ble satt til 2%) [7](https://snl.no/inflasjonsm%C3%A5l)\n",
-    "\n",
-    "--- \n",
-    "\n",
-    "> I modellen nedenfor vil det være egendefinerte matematiskeregnestykker med hold i de orginale ligningene, siden IS-RR vil orginalt ikke gi oss en linær linje så det vil være en forenklet modell."
+    "*I modellen nedenfor vil det være egendefinerte matematiskeregnestykker med hold i de orginale ligningene, siden IS-RR vil orginalt ikke gi oss en linær linje så det vil være en forenklet modell.*"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "da742982-f060-4151-9720-b78afff12b6f",
+   "id": "105fb34e-f29b-40ba-b3af-7ad82ff76b81",
    "metadata": {},
    "source": [
     "--- \n",
@@ -2224,12 +2208,13 @@
     "**2017**|*2.2*|*1.9*\n",
     "\n",
     "*BNP er en viktig variabel i IS-RR-PK kruve, siden det er den er av de viktigte faktorene for handlingsmønster til den Norsk Bank når det gjelder styringsrenten. BNP sier noe om hvordan tilstanden er i norsk økonomi, og hvordan de skal sette styringsrenten.* \n",
+    "\n",
     "\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "2b3fefbe-bf7e-434f-aa30-9e4f86d407d0",
+   "id": "3326c093-f1b0-4e72-8285-b8e22ffc3150",
    "metadata": {},
    "source": [
     "> *I modellen definerer vi variabler og funksjoner*"
@@ -2237,8 +2222,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 29,
-   "id": "5a3b8b81-c721-425e-aa6a-fb55c9e83e95",
+   "execution_count": 23,
+   "id": "7f262bcc-b446-4f00-a054-034dde24bd55",
    "metadata": {},
    "outputs": [
     {
@@ -2298,7 +2283,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c5e58e4d-75c6-449c-912d-25f166617432",
+   "id": "b549f83c-7945-495f-8ceb-d27a9c1f9757",
    "metadata": {},
    "source": [
     "**Teorien bak IS-kurven er jo lavere renten blir, jo større vil BNP bli, og jo høyere renten blir jo lavere vil BNP bli.**"
@@ -2306,7 +2291,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cfe89f04-614e-4f0f-a857-feb78044e8d6",
+   "id": "eb78e571-f660-4679-bc72-399ecac83cc4",
    "metadata": {},
    "source": [
     "---\n",
@@ -2316,13 +2301,14 @@
     "*RR-kurven viser sentralbankens rentesetting ved et inflasjonsmål, som vi antar følger et fast handlingsmønster. Norges Bank bruker konsumprisindeksen (KPI) til å måle inflasjonen, og KPI har noen priser som har en tedens til å variere mye fra en periode til en annen, som f.eks. energipriser kan stige mye i en periode og falle i en annen periode. Slike prisendringer kan skape støy i den underliggende trende i prisutviklingen og derfor bruker Norges bank ulike indikatorer for å se gjennom forbigående svigninger i inflasjonen. Den viktigste indikatoren for underliggende inflasjon i analysene er KPI justert for avgiftsendring og uten energivarer(KPI - JAE). Målet for pengepolitikken er at den årlige veksten i konsumprisene/inflasjonen er nær 2 prosent over tid.*\n",
     "\n",
     "*Handlingsmønstert til sentralbanken ved renteregelen innbærer at de vil sette en høy rente hvis inflasjonen er høyere enn inflasjonsmålet (likevekten i IS-RR-modell), eller hvis BNP er større enn potensielt BNP. Renten vil bidra til at infalsjonen reduseres ned mot målet, i tillegg vil en renteheving føre til at kornekursen styrkes, slik at prisveksten på importvarer dempes, som igjen fører til lavere vekst i konsumprisene.*\n",
+    "\n",
     "\n"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 30,
-   "id": "f63ea4fe-15eb-4426-8c76-295923b62e4a",
+   "execution_count": 24,
+   "id": "7866774e-4e8b-42db-a2fc-806bc485c23d",
    "metadata": {},
    "outputs": [
     {
@@ -2372,7 +2358,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "69c22e5f-950a-4e31-ba54-27d91f057aae",
+   "id": "638173eb-469a-4fb0-818b-eace38578ce7",
    "metadata": {},
    "source": [
     "**Funksjonen bak RR-kurven er at den følger IS-kruven, for å styre rentenivået etter hvilket eksogen handling det skjer på parameterene**"
@@ -2380,17 +2366,18 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e082687c-a27c-4709-b655-0042af3c874c",
+   "id": "94fbf428-094c-431c-9e6e-485cab94caaa",
    "metadata": {},
    "source": [
     "--- \n",
-    "### Modellene slått sammen: <a class=\"anchor\" id=\"modelleneslåttsammen\"></a>\n"
+    "### Modellene slått sammen: <a class=\"anchor\" id=\"modelleneslåttsammen\"></a>\n",
+    "\n"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
-   "id": "f84b520e-afef-4af9-934c-64a4a4e73f14",
+   "execution_count": 26,
+   "id": "6b919f4d-8246-4b5e-9560-6eb1b4ed968d",
    "metadata": {},
    "outputs": [
     {
@@ -2407,7 +2394,6 @@
     }
    ],
    "source": [
-    "\n",
     "import numpy as np               \n",
     "import matplotlib.pyplot as plt  \n",
     "\n",
@@ -2472,7 +2458,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6baabaa7-20d2-4ebf-8ce8-e381aa531dc5",
+   "id": "9cc48ca1-c283-4a31-85ee-b1e388bfe714",
    "metadata": {},
    "source": [
     "**I modellen ser man likevekten for en IS-RR-kurve**"
@@ -2480,20 +2466,20 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3976862e-9304-49ca-be29-75cfba66c732",
+   "id": "77369c51-0900-4539-a922-0029c5e37230",
    "metadata": {},
    "source": [
     "---\n",
     "### PK-kurven: <a class=\"anchor\" id=\"pkkurven\"></a>\n",
-    "\n",
+    "​\n",
     "*PK-kurven også omtalt som Philips-kurven viser fra sin oppringeligeform sammenheng mellom lønnsstigning og arbeidsledighet dvs. at når arbeidsleidgheten synker så stiger inlfasjonen.\n",
     "PK-kurven skal vise sammenhengen mellom to markoøknomiske variabler som er infalsjon og BNP-gapet(produksjonsgapet). Inflasjonen blir avgjort om hvordan BNP-gapet oppfører seg, øker inflasjonen så vil hele PK-kurven flytte seg et hakk opp som vil gjøre at BNP-gapet synker, og omvendt for å holde BNP i sjakk vis den øker. En PK-kruve som viser sammenhengen mellom lønnstigning og arbeidsledighet vil være omvendt av PK-kurven nedenfor.*"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 32,
-   "id": "c98a9402-e72e-4268-bb94-b22009369685",
+   "execution_count": 28,
+   "id": "8fa7f278-d1ca-4810-9502-23e91a9b1501",
    "metadata": {},
    "outputs": [
     {
@@ -2535,7 +2521,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7601d961-bad2-409c-aa21-2a65e78e56d2",
+   "id": "7ae10975-4b35-403b-8556-f5629bf6dba7",
    "metadata": {},
    "source": [
     "**I PK-kruven kan man se at inflasjonmålet er der likevekten i modellen er. Et skift opp, ned, høyre eller venstre vil øke gapet fra inflasjonsmålet.**\n",
@@ -2546,7 +2532,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8e3a615d-fd49-4965-8844-faf894079b6d",
+   "id": "a5c9b1ef-158e-477d-aade-14b06fffd669",
    "metadata": {},
    "source": [
     "### Skift i modellen: <a class=\"anchor\" id=\"skiftimodellen\"></a>\n",
@@ -2558,12 +2544,12 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
-   "id": "c8b80d8f-52df-4b41-b8fc-9475814f3ff0",
+   "execution_count": 29,
+   "id": "9b81c543-bb18-4908-aa19-c4d2371f5228",
    "metadata": {},
    "outputs": [],
    "source": [
-    " # Parameter\n",
+    "# Parameter\n",
     "c2 = 1               # Parameter\n",
     "c3 = 8               # Parameter\n",
     "Ms = 200             #Nominal money \n",
@@ -2572,8 +2558,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
-   "id": "b2c015c9-10b7-46a0-80a1-c98ad5187cd3",
+   "execution_count": 30,
+   "id": "bfe5da47-341f-469c-b7d1-a68e2bc32631",
    "metadata": {},
    "outputs": [
     {
@@ -2602,7 +2588,6 @@
     }
    ],
    "source": [
-    "\n",
     "import numpy as np               \n",
     "import matplotlib.pyplot as plt  \n",
     "\n",
@@ -2689,12 +2674,12 @@
     "plt.plot(figsize=[20, 8])\n",
     "\n",
     "\n",
-    "plt.show()\n"
+    "plt.show()"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "c27cdffd-f5e0-4d1a-b15a-d3b37c7914dd",
+   "id": "94bca70a-261a-4dbd-9eba-92a1404fd3e4",
    "metadata": {},
    "source": [
     "**Som man kan se i figueren ovenfor, så vil det positive etterspørselsjokket får IS-kruven til å skifte høyre opp langs RR-kruven, og sentralbanken sitt handlingdsmønster så skal de sette opp renten, som demper noe av veksten i BNP, og i nederste figur så ser man et skift til høyre som følger BNP-veksten, og uten rentehevingen gjorde at prisveksten ble blå vertikallinje isteden for grønn vertikallinje.**\n",
@@ -2704,7 +2689,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "44a5474f-8dc4-4fb9-8e90-35fdd7244891",
+   "id": "9b3ba98a-2548-44f4-ba24-9bdc5690c586",
    "metadata": {},
    "source": [
     "## Kilder <a class=\"anchor\" id=\"kilder\"></a>\n",
@@ -2762,122 +2747,12 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "6a9de2df-580b-4bed-af4e-a87c372defcc",
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ea502b09-52c2-4913-abfc-1dcb373f5c2d",
    "metadata": {},
-   "source": [
-    "## Kilder <a class=\"anchor\" id=\"kilder\"></a>\n",
-    "\n",
-    "---\n",
-    "\n",
-    "### Kilder Oppgave 1: <a class=\"anchor\" id=\"kilderoppgave1\"></a>\n",
-    "\n",
-    "- *Andreassen, Viggo., Bredesen, Ivar., Thøgersen, Joachim. (2020). Innføring i mikroøkonomi (3. utgave). Oslo: Cappelen Damm Akademisk.*\n",
-    "\n",
-    "- *Koehler, J. F. (2017). Supply an Demand: Consumer Surplus. Calculs-notes. Hentet fra https://calculus-notes.readthedocs.io/en/latest/0.8_consumer_surplus.html?fbclid=IwAR2Kpf1baOQzyeM8-g_Hq1CR_LGYQthvpbwrI-KXoeI5Fqy8EJGAI1ZNHzI*\n",
-    "\n",
-    "- *Stackoverflow (2021), hentet fra: https://stackoverflow.com/*\n",
-    "\n",
-    "- *WebsideSetup(2021, april) Python Cheat Sheet. Hentet fra (https://websitesetup.org/wp-content/uploads/2020/04/Python-Cheat-Sheet.png)*\n",
-    "\n",
-    "\n",
-    "\n",
-    "---\n",
-    "\n",
-    "### Kilder Oppgave 2: <a class=\"anchor\" id=\"kilderoppgave2\"></a>\n",
-    "\n",
-    "- *Holden, Steinar (2016) Markøkonomi (1.utgave). Oslo, Forlag: Cappelen Damm Akademisk.*\n",
-    "\n",
-    "- *Stackoverflow (2021), hentet fra: https://stackoverflow.com/*\n",
-    "\n",
-    "- *Cachanosky, N. (01-12-2021), Macro with Python, hentet fra: https://www.ncachanosky.com/macro_python/?fbclid=IwAR1aDzijCY-SHMQrJgvU480CGGDDEqG3k0ZXIceyZwVDG9Q79_a9wYBFecI*\n",
-    "\n",
-    "----\n",
-    "\n",
-    "\n",
-    "\n",
-    "\n",
-    "### Øvrige kilder: <a class=\"anchor\" id=\"øvrigekilder\"></a>\n",
-    "\n",
-    "8 - Aftenposten. (15-10-2018). - Ti År siden finanskrisen _ her er det du bør vite. Hentet fra: https://www.aftenposten.no/okonomi/i/On9E6E/ti-aar-siden-finanskrisen-her-er-det-du-boer-vite\n",
-    "\n",
-    "4 -  Andreassen, Viggo., Bredesen, Ivar., Thøgersen, Joachim. (2020). Innføring i mikroøkonomi (3. utgave). Oslo: Cappelen Damm Akademisk.\n",
-    "\n",
-    "6 - Finansavisen. (2021-01-12). Råvarepriser. Hentet fra https://finansavisen.no/tema/råvarepriser?fbclid=IwAR15mCK72A8XZyjTBxGCDMZmIdqLWx33eSPSiovqlyNpqgljergiF4M6qms\n",
-    "\n",
-    "3 - Hovland, K.M & Nilsen, A.A. (2021-15-10 ). - Ny rekord i eksportverdi i september: Solgte gass for 48,7 milliarder. E24. Hentet fra https://e24.no/olje-og-energi/i/k6mQaL/ny-rekord-i-eksportverdi-i-september-solgte-gass-for-487-milliarder?fbclid=IwAR0Zq8MVKFhVCUflZ-YrUkHSjPP-qET3yJOa7QZioSO6LzmMZfSLEXhgQLQ\n",
-    "\n",
-    "5 - *Rauan, E.C. (2021-28-6). Fortsatt høye priser og høyt konsum i Norden. Statistisk sentralbyrå. https://www.ssb.no/priser-og-prisindekser/konsumpriser/statistikk/sammenlikning-av-prisniva-i-europa/artikler/fortsatt-hoye-priser-og-hoyt-konsum-i-norden?fbclid=IwAR15mCK72A8XZyjTBxGCDMZmIdqLWx33eSPSiovqlyNpqgljergiF4M6qms*\n",
-    "\n",
-    "7 - Thomassen, Eivind (29-01-2021). Inflasjonsmålet, SNL: https://snl.no/inflasjonsm%C3%A5l\n",
-    "\n",
-    "2 - *Sjetne, F. (2021-22-06). -Økte fraktkostnader resulterer i dyrere varer. Formuesforvaltning. Hentet fra https://formue.no/innsikt/okte-fraktkostnader-resulterer-i-dyrere-varer/?fbclid=IwAR0mC5h5SsavDyhBc72QHIneBJ5M-hBYFPC2i1JQoYKFNMK-phFH9q8J9Io* \n",
-    "\n",
-    "1 - Trading Economics. (2021-01-12). -Inflasjon – liste over land. Trading Economics. Hentet fra \n",
-    "https://no.tradingeconomics.com/country-list/inflation-rate?fbclid=IwAR0ZC-2lz1dWljQ7UeTB_xc96S3KfmO-rBVmW77I_v8E0qyL7nSWX09M2h8\n",
-    "\n",
-    "\n",
-    "---"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "d9665b7a-89d4-4bc6-bd6b-3a49786a4fc7",
-   "metadata": {},
-   "source": [
-    "## Kilder <a class=\"anchor\" id=\"kilder\"></a>\n",
-    "\n",
-    "---\n",
-    "\n",
-    "### Kilder Oppgave 1: <a class=\"anchor\" id=\"kilderoppgave1\"></a>\n",
-    "\n",
-    "- *Andreassen, Viggo., Bredesen, Ivar., Thøgersen, Joachim. (2020). Innføring i mikroøkonomi (3. utgave). Oslo: Cappelen Damm Akademisk.*\n",
-    "\n",
-    "- *Koehler, J. F. (2017). Supply an Demand: Consumer Surplus. Calculs-notes. Hentet fra https://calculus-notes.readthedocs.io/en/latest/0.8_consumer_surplus.html?fbclid=IwAR2Kpf1baOQzyeM8-g_Hq1CR_LGYQthvpbwrI-KXoeI5Fqy8EJGAI1ZNHzI*\n",
-    "\n",
-    "- *Stackoverflow (2021), hentet fra: https://stackoverflow.com/*\n",
-    "\n",
-    "- *WebsideSetup(2021, april) Python Cheat Sheet. Hentet fra (https://websitesetup.org/wp-content/uploads/2020/04/Python-Cheat-Sheet.png)*\n",
-    "\n",
-    "\n",
-    "\n",
-    "---\n",
-    "\n",
-    "### Kilder Oppgave 2: <a class=\"anchor\" id=\"kilderoppgave2\"></a>\n",
-    "\n",
-    "- *Holden, Steinar (2016) Markøkonomi (1.utgave). Oslo, Forlag: Cappelen Damm Akademisk.*\n",
-    "\n",
-    "- *Stackoverflow (2021), hentet fra: https://stackoverflow.com/*\n",
-    "\n",
-    "- *Cachanosky, N. (01-12-2021), Macro with Python, hentet fra: https://www.ncachanosky.com/macro_python/?fbclid=IwAR1aDzijCY-SHMQrJgvU480CGGDDEqG3k0ZXIceyZwVDG9Q79_a9wYBFecI*\n",
-    "\n",
-    "----\n",
-    "\n",
-    "\n",
-    "\n",
-    "\n",
-    "### Øvrige kilder: <a class=\"anchor\" id=\"øvrigekilder\"></a>\n",
-    "\n",
-    "8 - Aftenposten. (15-10-2018). - Ti År siden finanskrisen _ her er det du bør vite. Hentet fra: https://www.aftenposten.no/okonomi/i/On9E6E/ti-aar-siden-finanskrisen-her-er-det-du-boer-vite\n",
-    "\n",
-    "4 -  Andreassen, Viggo., Bredesen, Ivar., Thøgersen, Joachim. (2020). Innføring i mikroøkonomi (3. utgave). Oslo: Cappelen Damm Akademisk.\n",
-    "\n",
-    "6 - Finansavisen. (2021-01-12). Råvarepriser. Hentet fra https://finansavisen.no/tema/råvarepriser?fbclid=IwAR15mCK72A8XZyjTBxGCDMZmIdqLWx33eSPSiovqlyNpqgljergiF4M6qms\n",
-    "\n",
-    "3 - Hovland, K.M & Nilsen, A.A. (2021-15-10 ). - Ny rekord i eksportverdi i september: Solgte gass for 48,7 milliarder. E24. Hentet fra https://e24.no/olje-og-energi/i/k6mQaL/ny-rekord-i-eksportverdi-i-september-solgte-gass-for-487-milliarder?fbclid=IwAR0Zq8MVKFhVCUflZ-YrUkHSjPP-qET3yJOa7QZioSO6LzmMZfSLEXhgQLQ\n",
-    "\n",
-    "5 - *Rauan, E.C. (2021-28-6). Fortsatt høye priser og høyt konsum i Norden. Statistisk sentralbyrå. https://www.ssb.no/priser-og-prisindekser/konsumpriser/statistikk/sammenlikning-av-prisniva-i-europa/artikler/fortsatt-hoye-priser-og-hoyt-konsum-i-norden?fbclid=IwAR15mCK72A8XZyjTBxGCDMZmIdqLWx33eSPSiovqlyNpqgljergiF4M6qms*\n",
-    "\n",
-    "7 - Thomassen, Eivind (29-01-2021). Inflasjonsmålet, SNL: https://snl.no/inflasjonsm%C3%A5l\n",
-    "\n",
-    "2 - *Sjetne, F. (2021-22-06). -Økte fraktkostnader resulterer i dyrere varer. Formuesforvaltning. Hentet fra https://formue.no/innsikt/okte-fraktkostnader-resulterer-i-dyrere-varer/?fbclid=IwAR0mC5h5SsavDyhBc72QHIneBJ5M-hBYFPC2i1JQoYKFNMK-phFH9q8J9Io* \n",
-    "\n",
-    "1 - Trading Economics. (2021-01-12). -Inflasjon – liste over land. Trading Economics. Hentet fra \n",
-    "https://no.tradingeconomics.com/country-list/inflation-rate?fbclid=IwAR0ZC-2lz1dWljQ7UeTB_xc96S3KfmO-rBVmW77I_v8E0qyL7nSWX09M2h8\n",
-    "\n",
-    "\n",
-    "---"
-   ]
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -2897,10 +2772,7 @@
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
    "version": "3.9.5"
-  },
-  "toc-autonumbering": false,
-  "toc-showmarkdowntxt": false,
-  "toc-showtags": false
+  }
  },
  "nbformat": 4,
  "nbformat_minor": 5
